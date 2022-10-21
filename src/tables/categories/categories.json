@@ -1,0 +1,63 @@
+[
+	{
+		"name": "Smartphones",
+		"description": "Smartphones' description",
+		"mappedCategories": [
+			"smartphones"
+		]
+	},
+	{
+		"name": "Laptops",
+		"description": "Laptops' description",
+		"mappedCategories": [
+			"laptops"
+		]
+	},
+	{
+		"name": "Clothes",
+		"description": "Clothes' description",
+		"mappedCategories": [
+			"tops",
+			"womens-dresses",
+			"mens-shirts"
+		]
+	},
+	{
+		"name": "Accessories",
+		"description": "Accessories' description",
+		"mappedCategories": [
+			"mens-watches",
+			"womens-watches",
+			"womens-bags"
+		]
+	},
+	{
+		"name": "Shoes",
+		"description": "Shoes' description",
+		"mappedCategories": [
+			"mens-shoes",
+			"womens-shoes"
+		]
+	},
+	{
+		"name": "Jewelry",
+		"description": "Jewelry's description",
+		"mappedCategories": [
+			"womens-jewellery",
+			"sunglasses"
+		]
+	},
+	{
+		"name": "Sportswear",
+		"description": "Sportswear's description",
+		"mappedCategories": []
+	},
+	{
+		"name": "Beauty",
+		"description": "Beauty's description",
+		"mappedCategories": [
+			"fragrances",
+			"skincare"
+		]
+	}
+]
