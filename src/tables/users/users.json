@@ -1,0 +1,32 @@
+[
+	{
+		"firstName": "Albert",
+		"lastName": "Vaillon",
+		"email": "albert.vaillon@etu.univ-lyon1.fr",
+		"password": "albert"
+	},
+	{
+		"firstName": "Hazim",
+		"lastName": "Asri",
+		"email": "wan-muhammad-hazim.wan-mohd-asri@etu.univ-lyon1.fr",
+		"password": "hazim"
+	},
+	{
+		"firstName": "Mathis",
+		"lastName": "Guerin",
+		"email": "mathis.guerin@etu.univ-lyon1.fr",
+		"password": "mathis"
+	},
+	{
+		"firstName": "Hedi",
+		"lastName": "Bouazza",
+		"email": "hedi.bouazza@etu.univ-lyon1.fr",
+		"password": "hedi"
+	},
+	{
+		"firstName": "Eyoub",
+		"lastName": "Benkacem",
+		"email": "eyoub.benkacem@etu.univ-lyon1.fr",
+		"password": "albert"
+	}
+]
