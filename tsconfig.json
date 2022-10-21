@@ -1,0 +1,17 @@
+{
+	"ts-node": {
+		"esm": true
+	},
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"baseUrl": "src",
+		"resolveJsonModule": true
+	},
+	"exclude":[
+	 	"node_modules"
+	]
+}
