@@ -9,7 +9,9 @@ try {
 	fd = await open('output/dataset.sql', 'w');
 
 	await generateUsers(fd);
+	
 	await generateCategories(fd);
+	
 	await generateProducts(fd);
 } catch (e) {
 	console.error(e);

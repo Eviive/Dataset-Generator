@@ -59,5 +59,10 @@
 			"fragrances",
 			"skincare"
 		]
+	},
+	{
+		"name": "Others",
+		"description": "Other's description",
+		"mappedCategories": []
 	}
 ]

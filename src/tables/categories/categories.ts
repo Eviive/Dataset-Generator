@@ -1,5 +1,5 @@
+import { generateStatements } from "../../utils/statementUtils.js";
 import { Category, GeneratorFunction } from "../../types/types.js";
-import { generateStatements } from "../../utils/dataUtils.js";
 
 import predefinedCategories from "./categories.json" assert { type: "json" }
 
