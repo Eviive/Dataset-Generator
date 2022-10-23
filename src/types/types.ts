@@ -7,6 +7,7 @@ export type User = {
 	lastName: string;
 	email: string;
 	password: string;
+	admin?: boolean;
 };
 
 export type Category = {
