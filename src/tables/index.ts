@@ -1,3 +1,5 @@
 export { generateUsers } from "./users/users.js";
 export { generateCategories } from "./categories/categories.js";
 export { generateProducts } from "./products/products.js";
+export { generateTicketTypes } from "./ticket-types/ticket-types.js";
+export { generateSocialMedias } from "./social-medias/social-medias.js";

@@ -29,7 +29,7 @@ export const generateUsers: GeneratorFunction = async fd => {
 			); 
 
 			${u.admin
-				? `INSERT INTO admins (user_id) VALUES (LAST_INSERT_ID());`
+				? `INSERT INTO admins (user_id) VALUES (LAST_INSERT_ID()); `
 				: ""
 			}
 			-- ${u.password}

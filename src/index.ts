@@ -1,4 +1,4 @@
-import { generateUsers, generateProducts, generateCategories } from "./tables/index.js";
+import { generateUsers, generateProducts, generateCategories, generateTicketTypes, generateSocialMedias } from "./tables/index.js";
 import { mkdir, open } from "fs/promises";
 
 await mkdir('output', { recursive: true });
@@ -13,6 +13,10 @@ try {
 	await generateCategories(fd);
 	
 	await generateProducts(fd);
+
+	await generateTicketTypes(fd);
+
+	await generateSocialMedias(fd);
 } catch (e) {
 	console.error(e);
 } finally {
