@@ -5,7 +5,7 @@ import ticketTypes from "./ticket-types.json" assert { type: "json" }
 
 export const generateTicketTypes: GeneratorFunction = async fd => {
 	
-	await generateStatements(fd, "Categories", ticketTypes, async t => `
+	await generateStatements(fd, "Ticket Types", ticketTypes, async t => `
 		INSERT INTO tickettypes (ticket_type_name) VALUES ('${t}');
 	`);
 };

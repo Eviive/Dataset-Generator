@@ -15,7 +15,7 @@ export const generateProducts: GeneratorFunction = async fd => {
 		return p;
 	});
 
-	await mkdir('output/images/products', { recursive: true });
+	await mkdir("output/images/products", { recursive: true });
 	
 	await generateStatements(fd, "Products", products, async p => {
 		

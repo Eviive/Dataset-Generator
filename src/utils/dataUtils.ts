@@ -16,7 +16,7 @@ export const downloadImage = async (url: string, category: string, name: string)
 	
 	name = name.replace(/[<>:"/\\|?*]/g, "");
 
-	const dest = join('..', '..', 'output', 'images', category, name);
+	const dest = join("..", "..", "output", "images", category, name);
 	
 	const { filename } = await timer(label, async () => await image({ url, dest }));
 
