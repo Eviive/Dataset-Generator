@@ -1,22 +1,27 @@
-import { generateUsers, generateProducts, generateCategories, generateTicketTypes, generateSocialMedias } from "./tables/index.js";
+import { generateUsers, generateProducts, generateCategories, generateTicketTypes, generateSocialMedias, generateCarts, generateTags } from "./tables/index.js";
 import { mkdir, open } from "fs/promises";
 
-await mkdir('output', { recursive: true });
+await mkdir("output", { recursive: true });
 
 let fd;
 
 try {
-	fd = await open('output/dataset.sql', 'w');
+	fd = await open("output/dataset.sql", "w");
+
+	await generateSocialMedias(fd);
 
 	await generateUsers(fd);
 	
 	await generateCategories(fd);
 	
+	await generateTags(fd);
+
 	await generateProducts(fd);
+
+	await generateCarts(fd);
 
 	await generateTicketTypes(fd);
 
-	await generateSocialMedias(fd);
 } catch (e) {
 	console.error(e);
 } finally {

@@ -27,4 +27,21 @@ export type Product = {
 	category: string;
 	thumbnail: string;
 	images: string[];
+	quantity?: number;
+};
+
+export type Cart = {
+	id: number;
+	products: Product[];
+	total: number;
+	discountedTotal: number;
+	userId: number;
+	totalProducts: number;
+	totalQuantity: number;
+};
+
+export type TagCategory = {
+	name: string;
+	categories: string[];
+	tags: string[];
 };
