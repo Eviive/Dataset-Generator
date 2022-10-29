@@ -28,7 +28,8 @@
 		"mappedCategories": [
 			"mens-watches",
 			"womens-watches",
-			"womens-bags"
+			"womens-bags",
+			"sunglasses"
 		]
 	},
 	{
@@ -43,8 +44,7 @@
 		"name": "Jewelry",
 		"description": "Jewelry's description",
 		"mappedCategories": [
-			"womens-jewellery",
-			"sunglasses"
+			"womens-jewellery"
 		]
 	},
 	{

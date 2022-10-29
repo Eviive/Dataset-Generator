@@ -1,0 +1,107 @@
+[
+	{
+		"name": "Size",
+		"categories": [
+			"Clothes",
+			"Shoes",
+			"Sportswear"
+		],
+		"tags": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		]
+	},
+	{
+		"name": "Color",
+		"categories": [
+			"Smartphones",
+			"Laptops",
+			"Clothes",
+			"Accessories",
+			"Shoes",
+			"Jewelry",
+			"Sportswear",
+			"Others"
+		],
+		"tags": [
+			"Red",
+			"Green",
+			"Blue",
+			"Yellow",
+			"Black",
+			"White"
+		]
+	},
+	{
+		"name": "Material",
+		"categories": [
+			"Clothes",
+			"Accessories",
+			"Shoes",
+			"Sportswear"
+		],
+		"tags": [
+			"Leather",
+			"Wool",
+			"Polyester",
+			"Nylon",
+			"Cotton"
+		]
+	},
+	{
+		"name": "Brand",
+		"categories": [
+			"Smartphones",
+			"Laptops"
+		],
+		"tags": [
+			"Apple",
+			"HP",
+			"Microsoft",
+			"Samsung",
+			"OPPO",
+			"Huawei",
+			"Infinix"
+		]
+	},
+	{
+		"name": "Gender",
+		"categories": [
+			"Clothes",
+			"Accessories",
+			"Shoes",
+			"Sportswear"
+		],
+		"tags": [
+			"Male",
+			"Female"
+		]
+	},
+	{
+		"name": "Shoe Type",
+		"categories": [
+			"Shoes"
+		],
+		"tags": [
+			"Boots",
+			"Sandals",
+			"Slippers",
+			"Sneakers"
+		]
+	},
+	{
+		"name": "Accessories Type",
+		"categories": [
+			"Accessories"
+		],
+		"tags": [
+			"Watches",
+			"Bags",
+			"Glasses"
+		]
+	}
+]
