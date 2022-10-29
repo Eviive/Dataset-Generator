@@ -17,12 +17,12 @@ export const generateStatements = async <E>(fd: FileHandle, table: string, data:
 };
 
 export const writeStatement = async (fd: FileHandle, stmt: string) => {
-	await fd.write(sanitizeStatement(stmt) + "\n");
+	await fd.write(sanitizeStatement(stmt));
 };
 
 const sanitizeStatement = (sql: string) => {
 	
-	sql = sql.replace(/(?=\s)[^ ]/gm, ""); // puts the statement on a single line
+	sql = sql.replace(/(?<!;|\*\/)(?=\s)[^ ]/gm, ""); // puts the statement on a single line
 	
 	sql = sql.replace(/(?<!\(|\s|,)'(?!\)|,|;)/gm, "''"); // escapes single quotes
 	
