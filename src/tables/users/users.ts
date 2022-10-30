@@ -39,6 +39,9 @@ export const generateUsers: GeneratorFunction = async fd => {
 	// sets one third of the users that are not admins as creators
 	// also sets up their socials based on their first name and last name
 	await writeStatement(fd, `
+		DROP PROCEDURE IF EXISTS generateSocialMedias; 
+		DROP PROCEDURE IF EXISTS generateCreators; 
+	
 		DELIMITER && 
 		CREATE OR REPLACE PROCEDURE generateSocialMedias(
 			IN p_creator_id INT, 
@@ -95,6 +98,9 @@ export const generateUsers: GeneratorFunction = async fd => {
 		END && 
 		DELIMITER ; 
 				
-		CALL generateCreators();
+		CALL generateCreators(); 
+
+		DROP PROCEDURE IF EXISTS generateSocialMedias; 
+		DROP PROCEDURE IF EXISTS generateCreators;
 	`);
 };

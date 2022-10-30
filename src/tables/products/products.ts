@@ -39,6 +39,8 @@ export const generateProducts: GeneratorFunction = async fd => {
 
 	// equally distributes products among creators
 	await writeStatement(fd, `
+		DROP PROCEDURE IF EXISTS distributeProductsToCreators; 
+	
 		DELIMITER && 
 		CREATE OR REPLACE PROCEDURE distributeProductsToCreators() 
 		BEGIN 
@@ -65,6 +67,8 @@ export const generateProducts: GeneratorFunction = async fd => {
 		END && 
 		DELIMITER ; 
 		
-		CALL distributeProductsToCreators;
+		CALL distributeProductsToCreators; 
+
+		DROP PROCEDURE IF EXISTS distributeProductsToCreators;
 	`);
 };
